@@ -1,0 +1,152 @@
+
+/* 폰트 */
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+@import url('//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css');
+
+*{
+    font-family: Pretendard,Roboto,Noto Sans KR,Segoe UI,Malgun Gothic,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,sans-serif;
+    color:rgb(40, 40, 25);
+}
+
+/* reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 12px;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* root */
+:root{
+    --font-size:12px;
+    --font-size2:13px;
+    --font-size3:14px;
+    --font-size4:16px;
+    --font-size5:18px;
+    --font-size6:24px;
+    --font-size7:28px;
+
+    --yellow:#F7D264;
+    --gray:#A0A0A0;
+    --blue-gray:#8E919A;
+
+    --bg:#E9EAEA;
+
+    --spoqa:'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+
+.wrap{
+    margin:0 32px;
+}
+
+button.main-button{
+    background:var(--yellow);
+    border:0;
+    font-size:var(--font-size4);
+    font-weight: bold;
+    width:100%;
+    max-width: 667px;
+    padding-top:18px;
+    padding-bottom:17px;
+    position: fixed;
+    left:50%;
+    bottom:0;
+    transform: translateX(-50%);
+}
+
+input[type='text'],
+input[type='date'],
+input[type='number']{
+    font-size:14px;
+    padding:12px 0px;
+    border-radius:0;
+    border:0;
+    border-bottom:1px solid rgba(56,57,60,0.3);
+    width:100%;
+    color:black;
+    background:#fff;
+    outline: none;
+
+    &::placeholder{
+        color:var(--gray);
+        opacity: 0.7;
+    }
+
+    &:read-only{
+        color:var(--gray);
+        opacity: 0.7;
+    }
+
+}
+
+.desc{
+    font-size:var(--font-size2);
+    font-weight: bold;
+    color:var(--gray);
+}
+
+.star{
+    color:var(--yellow);
+    font-size:14px;
+    padding:0 2px;
+    display: inline-block;
+    transform: translateY(3px);
+}
+
+textarea{
+    border:1px solid rgba(56,57,60,0.3);
+    border-radius: 4px;
+    margin-top:10px;
+    padding:10px 14px;
+    line-height: var(--font-size7);
+    width:calc(100% - 28px);
+    outline: none;
+    
+    &::placeholder{
+        color:var(--gray);
+        opacity: 0.7;
+    }
+}
+

@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/estimate/print/[id]/+page.svelte";

@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "e편한 견적",
+    "slug": "com-epyeonhan",
+    "version": "1.0.4",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.work6kr.comepyeonhan",
+      "companyName":"주식회사 워크식스"
+    },
+    "android": {
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.work6kr.comepyeonhan"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4635cffb-ada1-40c2-8b67-f7050a28d661"
+      }
+    },
+    "owner": "work6kr"
+  }
+}

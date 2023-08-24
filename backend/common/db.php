@@ -1,0 +1,1 @@
+<?$dbinfo = array('host'=>'localhost','dbid'=>'work6kr','dbpw'=>'Vmtma3NxdWYxMCM=','dbnm'=>'eWeb');?>
